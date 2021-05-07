@@ -258,7 +258,7 @@ def user_input():
     cont = True
     while cont:
         print(f"Selection")
-        user_input = input("Enter a movie (type 'done' when finished): ")
+        user_input = input("Enter a movie (type 'done' when finished adding movies): ")
         #when the user is done they can end the loop and recieve output for all their preferences
         if (user_input.lower() == 'done'):
             cont = False
@@ -296,7 +296,7 @@ def main():
 # This data is used to form the profile of the user, decisions made i.e. 'clicking' on the film feed back to the algorithm, optimizing it with every 'click.'
 # This block will cause the entire program to run and produce output
 
-# In[15]:
+# In[19]:
 
 
 #resetting the users selections before the program is run again
